@@ -1,0 +1,12 @@
+console.log('Loading function');
+
+exports.handler = function(event, context) {
+    //console.log('Received event:', JSON.stringify(event, null, 2));
+    //console.log('value1 =', event.key1);
+    //console.log('value2 =', event.key2);
+    //console.log('value3 =', event.key3);
+    //context.succeed(event.key1);  // Echo back the first key value
+    console.log('Hello World!')
+    // context.fail('Something went wrong');
+};
+
