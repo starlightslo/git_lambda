@@ -7,6 +7,7 @@ exports.handler = function(event, context) {
     //console.log('value3 =', event.key3);
     //context.succeed(event.key1);  // Echo back the first key value
     console.log('Hello World!')
+    context.succeed('OK! Cool!')
     // context.fail('Something went wrong');
 };
 
