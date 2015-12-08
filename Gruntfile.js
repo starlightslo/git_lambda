@@ -16,7 +16,9 @@ grunt.initConfig({
     },
 	lambda_package: {
     	default: {
-    		include_time: false
+		options: {
+    			include_time: false
+		}
     	}
 	}
 });
